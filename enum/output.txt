@@ -1,0 +1,16 @@
+Time=  5 | instr=FETCH | read=0 | write=0
+Time= 15 | instr=FETCH | read=0 | write=0
+Time= 25 | instr=FETCH | read=1 | write=0
+Time= 35 | instr=FETCH | read=0 | write=0
+Time= 45 | instr=WRITE | read=0 | write=0
+Time= 55 | instr=WRITE | read=0 | write=0
+Time= 65 | instr=ADD   | read=0 | write=0
+Time= 75 | instr=ADD   | read=0 | write=0
+Time= 85 | instr=WRITE | read=0 | write=0
+Time= 95 | instr=WRITE | read=0 | write=1
+Time=105 | instr=FETCH | read=0 | write=0
+Time=115 | instr=FETCH | read=1 | write=0
+Time=125 | instr=FETCH | read=0 | write=0
+Time=135 | instr=FETCH | read=0 | write=0
+Time=145 | instr=FETCH | read=1 | write=0
+tb_controller.sv:30: $finish called at 150 (1s)
