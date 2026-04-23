@@ -1,0 +1,13 @@
+A = 10 | B = 5 | SIGNED ADD = 15
+A = 10 | B = 5 | SIGNED SUB = 5
+A = -3 | B = 4 | SIGNED MUL = -12
+A = 20 | B = 4 | SIGNED DIV = 5
+A = 10 | SIGNED SL = 1000
+A = 1000 | SIGNED SR = 10
+A = 10 | B = 5 | UNSIGNED ADD = 15
+A = 10 | B = 5 | UNSIGNED SUB = 5
+A = 3 | B = 4 | UNSIGNED MUL = 12
+A = 20 | B = 4 | UNSIGNED DIV = 5
+A = 10 | UNSIGNED SL = 1000
+A = 1000 | UNSIGNED SR = 10
+tb_alu.sv:96: $finish called at 60 (1s)
