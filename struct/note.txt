@@ -1,0 +1,1 @@
+The iVerilog + packed union combination is a known quirk — the signed qualifier on a union member isn't always respected by system tasks, so the local signed variable trick is a good pattern to remember whenever you're mixing signed/unsigned in packed unions.
