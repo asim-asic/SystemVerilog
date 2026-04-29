@@ -33,8 +33,8 @@ module traffic_light (
     {green_light, yellow_light, red_light} = 3'b000;
     unique case (state)
       RED: red_light = 1'b1;
-      GREEN: red_light = 1'b1;
-      YELLOW: red_light = 1'b1;
+      GREEN: green_light = 1'b1;
+      YELLOW: yellow_light = 1'b1;
     endcase
   end : set_outputs
 endmodule
